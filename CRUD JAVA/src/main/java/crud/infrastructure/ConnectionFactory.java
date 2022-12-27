@@ -1,4 +1,4 @@
-package com.infrastructure;
+package crud.infrastructure;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -10,10 +10,11 @@ public class ConnectionFactory {
 
         public static Connection getConnection() {
             try {
-                DriverManager.getConnection("jdbc:postgresql://localhost/crud_Db", "postgres", "1205");
+                DriverManager.getConnection("jdbc:postgresql://localhost/postgres", "postgres", "1205");
             } catch (SQLException ex) {
                 throw new RuntimeException(ex);
             }
+            return null;
         }
     }
 

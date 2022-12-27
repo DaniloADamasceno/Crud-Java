@@ -1,6 +1,6 @@
-package com.models;
+package crud.models;
 
-import com.data_Access_Object.Itf_Expenses;
+import crud.data_Access_Object.Itf_Expenses;
 
 import java.time.LocalDate;
 import java.util.List;

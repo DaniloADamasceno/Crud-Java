@@ -1,4 +1,4 @@
-package com.models;
+package crud.models;
 
 public enum Category {
     FOOD,                           // Alimentação
