@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c9b4540-ae91-4ed3-b0e1-2ffc8f5e6ef4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/sonarlint/issuestore/0/6/064ecc327e061e3f7e07c514445f44b1e826cb26" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/sonarlint/issuestore/8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/sonarlint/issuestore/a/d/ad66d8c9cddafe43264dc5fe83fe00e0180358be" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/sonarlint/issuestore/b/4/b42eea3ea828c91dc5f00acfd43326fa869533bd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/sonarlint/issuestore/b/d/bd1bcaf78700d8c04c8e545ba3e073c493e77125" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/sonarlint/issuestore/d/3/d35ce61684ecbf1c537f14ef9c3f58af3cbaab5a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/sonarlint/issuestore/d/f/df69f83b0e70d485f79c545d8c1405ec3a3b56a5" afterDir="false" />
-    </list>
+    <list default="true" id="4c9b4540-ae91-4ed3-b0e1-2ffc8f5e6ef4" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,6 +47,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "last_opened_file_path": "/home/danilo-linux/Área de Trabalho/Curso de JAVA /Crud-Java/CRUD JAVA",
+    "run.code.analysis.last.selected.profile": "pProject Default",
     "settings.editor.selected.configurable": "com.github.copilot.settings.ApplicationConfigurable",
     "zielu.gittoolbox.prj.config.selected.tab.id": "zielu.gittoolbox.config.shared.commit"
   }

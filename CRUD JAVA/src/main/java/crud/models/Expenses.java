@@ -14,41 +14,20 @@ public class Expenses implements Itf_Expenses {
     private Double value;                       // Valor
     private Category category;                  // Categoria dos produtos
 
-
-
     //--------------------------
     //       Constructors
     //--------------------------
-    @Override
-    public Expenses save(Expenses expenses) {
-        return null;
+    public Expenses(Long id, String description, LocalDate date, Double value, Category category) {
+        this.id = id;
+        this.description = description;
+        this.date = date;
+        this.value = value;
+        this.category = category;
     }
 
-    @Override
-    public Expenses update(Expenses expenses) {
-        return null;
-    }
-
-    @Override
-    public void delete(Long id) {
-
-    }
-
-    @Override
-    public List<Expenses> findAll() {
-        return null;
-    }
-
-    @Override
-    public Optional<Expenses> findById(Long id) {
-        return Optional.empty();
-    }
-
-    @Override
-    public List<Expenses> findByDescription(String description) {
-        return null;
-    }
-
+    //--------------------------
+    //   Getters and Setters
+    //--------------------------
     public Long getId() {
         return id;
     }
@@ -89,5 +68,8 @@ public class Expenses implements Itf_Expenses {
         this.category = category;
     }
 }
+
+
+
 
 

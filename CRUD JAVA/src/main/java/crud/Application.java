@@ -6,22 +6,14 @@ import crud.models.Expenses;
 
 import java.sql.SQLOutput;
 import java.time.LocalDate;
+import java.util.List;
 
 public class Application    {
     public static void main(String[] args) {
 
-        Expenses expenses = new Expenses();                     // Instancia um objeto do tipo Expenses
-        expenses.setDescription("Teste-1.0.0");                 // Atribui uma descrição ao objeto expenses
-        expenses.setValue(100.00);                              // Atribui um valor ao objeto expenses
-        expenses.setDate(LocalDate.now());                      // Atribui uma data ao objeto expenses
-        expenses.setCategory(Category.OTHERS);                  // Atribui uma categoria ao objeto expenses
-
-
-
-        Expenses DespesaInserida;                             // Salva o objeto Despesas no banco de dados
-        DespesaInserida = ExpensesDAO.save(expenses);
-        System.out.println("A despesa foi inserida com sucesso! ID: " + DespesaInserida.getId());
-
+        Expenses expenses = new Expenses(1L, "Teste-1.0.0", LocalDate.now(), 100.00, Category.OTHERS);                     // Instancia um objeto do tipo Expenses
+        List<Expenses> expensesList = ExpensesDAO.findAll();                                                                                       // Atribui uma descrição ao objeto expenses
+        ExpensesDAO.save(expenses);                             // Salva o objeto DEspesas no banco de dados
 
     }
 }
