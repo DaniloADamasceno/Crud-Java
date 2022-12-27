@@ -3,32 +3,32 @@ package com.data_Access_Object;
 import com.infrastructure.ConnectionFactory;
 import com.models.Expenses;
 
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
 import java.util.List;
 import java.util.Optional;
 
 public class ExpensesDAO implements Itf_Expenses{
     @Override
     public Expenses save(Expenses expenses) {
-        try (Connection connection = ConnectionFactory.getConnection())
+        try (Connection connection = ConnectionFactory.getConnection()) {
 
-                connection.prepareStatement("INSERT INTO expenses (description, date, value, category) VALUES (?, ?, ?, ?)");
-{
-            String sql = "INSERT INTO expenses (description, date, value, category) VALUES (?, ?, ?, ?)";
-            PreparedStatement preparedStatement = connection.prepareStatement(sql);
-            preparedStatement.setString(1, expenses.getDescription());
-            preparedStatement.setDate(2, Date.valueOf(expenses.getDate()));
-            preparedStatement.setDouble(3, expenses.getValue());
-            preparedStatement.setString(4, expenses.getCategory().name());
-            preparedStatement.execute();
-            return expenses;
+            String Sql = "INSERT INTO expenses (description, value, date, category) VALUES (?,?,?,?)";
+            PreparedStatement preparedStatement = connection.prepareStatement(Sql);                                         // Instrução SQL para inserir dados na tabela expenses
+            preparedStatement.setString(1, expenses.getDescription());                                     // Descrição
+            preparedStatement.setDouble(2, expenses.getValue());                                           // Valor
+            preparedStatement.setDate(3, java.sql.Date.valueOf(expenses.getDate()));                       // Data
+            preparedStatement.setString(4, expenses.getCategory().toString());                             // Categoria
+
+            preparedStatement.executeUpdate();                                                                              // Executa a instrução SQL
+
+
+
         } catch (SQLException ex) {
             throw new RuntimeException(ex);
         }
-
-
-
-
-        return null;
+        return expenses;
     }
 
     @Override
