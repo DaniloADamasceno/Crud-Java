@@ -13,7 +13,9 @@ public class Application    {
 
         Expenses expenses = new Expenses(1L, "Teste-1.0.0", LocalDate.now(), 100.00, Category.OTHERS);                     // Instancia um objeto do tipo Expenses
         List<Expenses> expensesList = ExpensesDAO.findAll();                                                                                       // Atribui uma descrição ao objeto expenses
-        ExpensesDAO.save(expenses);                             // Salva o objeto DEspesas no banco de dados
 
+        for (Expenses expenses1 : expensesList) {
+            System.out.println(expenses1);
+        }
     }
 }

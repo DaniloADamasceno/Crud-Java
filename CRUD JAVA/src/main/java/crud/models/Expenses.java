@@ -67,6 +67,8 @@ public class Expenses implements Itf_Expenses {
     public void setCategory(Category category) {
         this.category = category;
     }
+
+
 }
 
 

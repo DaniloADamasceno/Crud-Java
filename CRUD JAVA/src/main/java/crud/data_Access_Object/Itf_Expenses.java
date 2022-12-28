@@ -1,5 +1,6 @@
 package crud.data_Access_Object;
 
+import crud.models.Category;
 import crud.models.Expenses;
 
 import java.util.List;
@@ -12,5 +13,6 @@ public interface Itf_Expenses {
     void delete(Long id);                                       // Deletar
     List<Expenses> findAll();                                   // Listar todos as Despesas
     Optional<Expenses> findById(Long id);                       // Buscar por ID
-    List<Expenses> findByDescription(String description);       // Buscar por Descrição
+
+    Category findByCategory(Category category);                 // Buscar por Categoria
 }
