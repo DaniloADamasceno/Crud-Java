@@ -1,12 +1,10 @@
 package crud.models;
 
-import crud.data_Access_Object.Itf_Expenses;
+import crud.dataAccessObject.InterfaceExpenses;
 
 import java.time.LocalDate;
-import java.util.List;
-import java.util.Optional;
 
-public class Expenses implements Itf_Expenses {
+public class Expenses implements InterfaceExpenses {
 
     private Long id;                            // primary key
     private String description;                 // Descrição dos itens
