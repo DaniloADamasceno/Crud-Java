@@ -11,6 +11,10 @@ Projeto CRUD
 <p>A aplicação será capaz de lidar com possíveis problemas de SQL Injection, utilizando recursos de segurança para evitar ataques maliciosos.</p>
 
 <p>Este projeto é ideal para aqueles que querem praticar suas habilidades em Java, Maven e gerenciamento de banco de dados, além de conhecer técnicas de segurança na programação.</p>
+<hr>
+
+<br>
+<br>
 
     . Criar Projeto MAVEN Utilijando Intellij IDE
     . Criar Banco de Dados no Postgress
