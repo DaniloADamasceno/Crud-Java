@@ -1,6 +1,6 @@
 package crud;
 
-import crud.dataAccessObject.ExpensesDAO;
+import crud.dao.ExpensesDAO;
 import crud.models.Category;
 import crud.models.Expenses;
 

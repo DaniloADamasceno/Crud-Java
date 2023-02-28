@@ -1,4 +1,4 @@
-package crud.dataAccessObject;
+package crud.dao;
 
 import crud.models.Category;
 import crud.models.Expenses;

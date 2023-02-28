@@ -1,4 +1,4 @@
-package crud.dataAccessObject;
+package crud.dao;
 
 import crud.infrastructure.ConnectionFactory;
 import crud.models.Category;
@@ -89,7 +89,7 @@ public class ExpensesDAO implements InterfaceExpenses {
     //  Busca Completa
     //--------------------------
     @Override
-    public List<Expenses> findAll() {                                                                                    // Retorna uma lista de todos os registros da tabela DESPESAS
+    public static List<Expenses> findAll() {                                                                                    // Retorna uma lista de todos os registros da tabela DESPESAS
         String sql = "SELECT * FROM expenses";                                                                           // Instrução SQL
 
         List<Expenses> expensesList = new ArrayList<>();                                                                 // Lista de despesas

@@ -1,6 +1,6 @@
 package crud.models;
 
-import crud.dataAccessObject.InterfaceExpenses;
+import crud.dao.InterfaceExpenses;
 
 import java.time.LocalDate;
 

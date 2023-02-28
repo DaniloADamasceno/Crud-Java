@@ -1,6 +1,6 @@
 package crud;
 
-import crud.dataAccessObject.ExpensesDAO;
+import crud.dao.ExpensesDAO;
 
 public class DeleteCrud {
 
