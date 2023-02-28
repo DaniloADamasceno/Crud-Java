@@ -3,6 +3,11 @@
 
 Projeto CRUD 
 
+![GitHub repo size](https://img.shields.io/github/repo-size/DaniloADamasceno/Crud-Java?style=for-the-badge)
+![GitHub language count](https://img.shields.io/github/languages/count/DaniloADamasceno/Crud-Java?style=for-the-badge)
+
+![Logo](https://programadoresdepre.com.br/wp-content/uploads/2022/06/o-que-e-CRUD.jpg)
+
 
 <p>Este é um projeto CRUD (Create, Read, Update, Delete) em Java, utilizando o framework Maven e a IDE Intellij. O objetivo é criar uma aplicação para gerenciamento de despesas, onde é possível inserir, listar (filtrando por ID ou categoria), atualizar e remover despesas.</p>
 
@@ -36,7 +41,6 @@ Projeto CRUD
 **Back-end:** Java, Banco de dados
 
 
-![Logo](https://programadoresdepre.com.br/wp-content/uploads/2022/06/o-que-e-CRUD.jpg)
 
 
 ## Autores
