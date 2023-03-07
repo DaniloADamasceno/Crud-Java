@@ -6,6 +6,8 @@ Projeto CRUD
 ![GitHub repo size](https://img.shields.io/github/repo-size/DaniloADamasceno/Crud-Java?style=for-the-badge)
 ![GitHub language count](https://img.shields.io/github/languages/count/DaniloADamasceno/Crud-Java?style=for-the-badge)
 
+[![wakatime](https://wakatime.com/badge/user/e7f2e494-878d-4290-9a2b-cc473da48b8a/project/9632f01a-2c0b-4d0d-b887-f274b7070c51.svg)](https://wakatime.com/badge/user/e7f2e494-878d-4290-9a2b-cc473da48b8a/project/9632f01a-2c0b-4d0d-b887-f274b7070c51)
+
 ![Logo](https://programadoresdepre.com.br/wp-content/uploads/2022/06/o-que-e-CRUD.jpg)
 
 
