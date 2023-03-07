@@ -4,7 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c9b4540-ae91-4ed3-b0e1-2ffc8f5e6ef4" name="Changes" comment="" />
+    <list default="true" id="4c9b4540-ae91-4ed3-b0e1-2ffc8f5e6ef4" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/crud/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/crud/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/crud/DeleteCrud.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/crud/DeleteCrud.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/crud/UpdateCrud.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/crud/UpdateCrud.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/crud/dao/ExpensesDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/crud/dao/ExpensesDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/crud/dao/InterfaceExpenses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/crud/dao/InterfaceExpenses.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/crud/models/Expenses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/crud/models/Expenses.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,16 +36,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="workspaceImportEnabled" value="true" />
-      </MavenImportingSettings>
-    </option>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2JSg6nE9bWdblLbhb2hHXBTqhHe" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -46,13 +62,27 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "/home/danilo-linux/Área de Trabalho/Curso de JAVA /Crud-Java/CRUD JAVA",
+    "git-widget-placeholder": "Cherry-picking in main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Danilo A. Damasceno/Desktop/JavaScript e JAVA/JAVA/06 - Crud JAVA",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "inlay.hints",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "vue.rearranger.settings.migration": "true",
     "zielu.gittoolbox.prj.config.selected.tab.id": "zielu.gittoolbox.config.shared.commit"
   }
 }]]></component>
   <component name="RunManager" selected="Application.crud.Application">
+    <configuration default="true" type="LiferayDockerServerConfiguration" factoryName="Liferay Docker Server">
+      <option name="passParentEnvironments" value="true" />
+      <option name="workspaceLocation" value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.Application" />
       <module name="CRUD_JAVA" />
@@ -79,17 +109,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="LiferayDockerServerConfiguration" factoryName="Liferay Docker Server">
-      <option name="passParentEnvironments" value="true" />
-      <option name="workspaceLocation" value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.crud.Application" />
         <item itemvalue="Application.Application" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.10-corretto-17.0.10-4caba194b151-5cd809f4" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -99,8 +131,13 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672076728439</updated>
+      <workItem from="1710349701338" duration="507000" />
+      <workItem from="1710350388950" duration="1219000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -115,5 +152,12 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

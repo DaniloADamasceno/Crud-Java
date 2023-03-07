@@ -3,6 +3,8 @@ package crud.models;
 import crud.dao.InterfaceExpenses;
 
 import java.time.LocalDate;
+import java.util.List;
+import java.util.Optional;
 
 public class Expenses implements InterfaceExpenses {
 
@@ -67,6 +69,35 @@ public class Expenses implements InterfaceExpenses {
     }
 
 
+    @Override
+    public Expenses save(Expenses expenses) {
+        return null;
+    }
+
+    @Override
+    public Expenses update(Expenses expenses) {
+        return null;
+    }
+
+    @Override
+    public void delete(Long id) {
+
+    }
+
+    @Override
+    public List<Expenses> findAll() {
+        return null;
+    }
+
+    @Override
+    public Optional<Expenses> findById(Long id) {
+        return Optional.empty();
+    }
+
+    @Override
+    public List<Expenses> findByCategory(Category category) {
+        return null;
+    }
 }
 
 

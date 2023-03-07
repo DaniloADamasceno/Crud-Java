@@ -13,6 +13,5 @@ public interface InterfaceExpenses {
     void delete(Long id);                                       // Deletar
     List<Expenses> findAll();                                   // Listar todos as Despesas
     Optional<Expenses> findById(Long id);                       // Buscar por ID
-
-    List<Expenses> findByCategory(Category category);                 // Buscar por Categoria
+    List<Expenses> findByCategory(Category category);           // Buscar por Categoria
 }

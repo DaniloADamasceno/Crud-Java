@@ -9,8 +9,5 @@
         <module name="CRUD_JAVA" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="CRUD_JAVA" target="17" />
-    </bytecodeTargetLevel>
   </component>
 </project>
