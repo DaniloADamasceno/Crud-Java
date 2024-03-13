@@ -10,6 +10,8 @@
 
 [![wakatime](https://wakatime.com/badge/user/e7f2e494-878d-4290-9a2b-cc473da48b8a/project/9632f01a-2c0b-4d0d-b887-f274b7070c51.svg)](https://wakatime.com/badge/user/e7f2e494-878d-4290-9a2b-cc473da48b8a/project/9632f01a-2c0b-4d0d-b887-f274b7070c51)
 
+[![Repository Views](https://komarev.com/ghpvc/?username=DaniloADamascenoCrud&label=Views&color=brightgreen)](https://github.com/DaniloADamasceno/Crud-Java)
+
 <!-- Imagem da Tela inicial do Aplicativo -->
 <div align="center">
 
@@ -19,7 +21,7 @@
 </br>
 </br>
 
-## Descrição do Projeto
+### 📃 Descrição do Projeto
 
 </br>
 
@@ -49,25 +51,48 @@ Este projeto é ideal para aqueles que querem praticar suas habilidades em Java,
 
     . Como Lidar com SQL Injection
 
-## Stack utilizada
 
-**Front-end:**
+## 📦 Contribuição
 
-**Back-end:** ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white "Badge Java")
+Este é um projeto de código aberto e estou aberto a contribuições da comunidade.
+Se desejar contribuir para este projeto, siga estas etapas:
+
+1. Faça um fork do repositório.
+2. Crie um branch para sua feature ou correção de bug: *git checkout -b minha-feature*.
+3. Faça suas alterações e adicione suas melhorias.
+4. Commit suas alterações: *git commit -m 'Adicionando nova feature'*.
+5. Envie para o branch principal do repositório original: *git push origin main*.
+6. Abra um pull request no GitHub.
+
+## 🛠️ Stack utilizadas
+
+**Back-end:**
+
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white "Badge Java")
+![Apache Maven](https://img.shields.io/badge/Apache%20Maven-C71A36?style=for-the-badge&logo=Apache%20Maven&logoColor=white)
+
+
+**DataBase:**
+
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
 
-## Autores
 
-- [@Danilo A. Damasceno](https://github.com/DaniloADamasceno/)
+## ✒️ Autores
 
-</br>
-</br>
-</br>
+Mencione todos aqueles que ajudaram a levantar o projeto desde o seu início
 
-________________________________________________________________________________________________________________________________________________________________
+* **Desenvolvedor** -  [@Danilo A. Damasceno](https://github.com/DaniloADamasceno/)
+* **Documentação** -   [@Danilo A. Damasceno](https://github.com/DaniloADamasceno/)
 
-# Atualizações de Projeto e suas Versões
 
-*Atualização* 1.2.0 :
-> --> **PROJETO EM DESENVOLVIMENTO.**
+</br></br></br>
+</hr>
+
+## 📄 Atualizações de Projeto e suas Versões
+
+
+### **Atualização**: 1.2.0:
+
+- BACK-END Concluído.
+- --> **PROJETO CONCLUÍDO.**
 </br>
